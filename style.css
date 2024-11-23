@@ -1,0 +1,500 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+nav {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.logo img { 
+    height: 55px;
+    width: 180px;
+}
+
+.right ul {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 15px;
+}
+
+.right ul li {
+    font-size: 14px;
+    list-style: none;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.right ul li span {
+    padding: 0 9px;
+}
+
+/* Hero Section */
+.first {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+    column-gap: 15px;
+    padding-top: 50px;
+}
+
+.s {
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+.s1 {
+    max-width: 65vw;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+}
+
+.first button {
+    cursor: pointer;
+    border: 2px;
+    background-color: #00b6d1;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 15px 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main Content */
+.Maincontent {
+    max-width: 65vw;
+    margin: auto;
+    margin-top: 33px;
+}
+
+/* Section with icons/text */
+.first1 {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    gap: 30px;
+    padding: 30px 0;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.first1 img {
+    height: 60px;
+    width: 60px;
+}
+
+.first1 span {
+    font-size: 15px;
+    color: darkgray;
+}
+
+/* Grid Section */
+.grid {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 10px;
+    padding-bottom: 30px;
+}
+
+.item {
+    border-radius: 7px;
+    height: 200px;
+    width: 100%;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 16px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item button {
+    border: none;
+    margin-top: 20px;
+    font-size: 12px;
+    color: white;
+    background-color: #5cb85c;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 8px 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+/* 1st Black Section */
+.black {
+    padding: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(32, 32, 32);
+}
+
+.black .text {
+    margin-right: 50px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.black .text #text1 {
+    margin-bottom: 9px;
+    font-size: 24px;
+}
+
+.black .text #text2 {
+    font-size: 20px;
+}
+
+.black .box {
+    margin-left: 50px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.black .box #box2 {
+    margin-bottom: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(96, 201, 243);
+    font-size: 25px;
+}
+
+.black .box #box1 {
+    font-size: 13.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.black .box #box1 #input input {
+    border: 1px solid lightgray;
+    width: 270px;
+    height: 50px;
+}
+
+.black .box button {
+    margin-top: 10px;
+    width: 280px;
+    height: 50px;
+    background-color: #00b6d1;
+    box-shadow: 2px 9px 10px #c5e9ef;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    border: 0px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;   
+}
+
+/* 2nd Black Section */
+.black1 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(32, 32, 32);
+}
+
+
+.black1 .t #text1 {
+    margin-bottom: 13px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+} 
+
+.black1 .t #text2 {
+    margin-bottom: 13px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.black1 .t #text3 {
+    margin-bottom: 13px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.black1 .t #text4 {
+    cursor: pointer;
+    margin-bottom: 13px;
+    color: rgb(79, 197, 244);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+
+
+.black1 .t1 #text1 {
+    margin-bottom: 13px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+} 
+
+.black1 .t1 #text2 {
+    margin-bottom: 13px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.black1 .t1 #text3 {
+    margin-bottom: 33px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.black1 .t1 #text4 {
+    cursor: pointer;
+    margin-bottom: 13px;
+    color: rgb(79, 197, 244);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+/* Footer Section */
+.foot {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.foot img {
+    cursor: pointer;
+    height: 49px;
+    width: 150px;
+}
+
+.foot #foot1 img {
+    cursor: pointer;
+    padding: 5px;
+    height: 28px;
+    width: 28px;
+}
+
+
+
+
+@media screen and (max-width: 1285px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .first {
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 1050px) {
+    .right ul {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 875px) {
+    .black {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .black .text {
+        margin-right: 0;
+        font-size: 32px;
+    }
+
+    .black .box {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .black1 {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .black1 .t {
+        margin-right: 0;
+        font-size: 32px;
+    }
+
+    .black1 .t1 {
+        margin-right: 0;
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 595px) {
+    /* .logo img
+    {
+        height: 25px;
+        width: 90px; 
+    } */
+
+    .logo {
+        background-image: url('https://www.ultraedit.com/wp-content/uploads/2023/01/UE_logo_icon_white.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100px;
+        height: 100px;
+    }
+
+    .logo img {
+        display: none;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .item {
+        width: 90%;
+    }
+
+    .first1 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+    .logo img
+    {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .logo img
+    {
+        width: 15px;
+        height: 15px;
+    }
+
+    .right ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .first {
+        padding: 30px;
+    }
+
+    .s {
+        font-size: 32px;
+    }
+
+    .s1 {
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    .item {
+        font-size: 18px;
+    }
+    
+    .black {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .black .text {
+        margin-right: 0;
+        font-size: 32px;
+    }
+
+    .black .box {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .black1 {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .black1 .t {
+        margin-right: 0;
+        font-size: 32px;
+    }
+
+    .black1 .t1 {
+        margin-right: 0;
+        font-size: 32px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .logo {
+        width: 70px;
+        height: 70px;
+    }
+
+    .first, .first1, .s, .s1, .item {
+        font-size: 16px;
+    }
+
+    .item {
+        padding: 10px;
+        width: 90%;
+    }
+
+    .right ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .black, .black1 {
+        padding: 15px;
+    }
+
+    .black .box button 
+    {
+        width: 80px;
+    }
+
+    .black .box #box1 #input{
+        width: 80px;
+    }
+
+
+    .container {
+        padding: 0 10px;
+    }
+}
